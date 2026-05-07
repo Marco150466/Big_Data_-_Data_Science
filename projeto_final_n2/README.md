@@ -66,7 +66,7 @@ Após o processamento sistemático, a base consolidada final de região foi estr
 3. Análise Estatística Descritiva (Python Pandas)
 Abaixo estão sumarizadas as principais métricas calculadas automaticamente pelo algoritmo Python sobre a totalidade da série histórica:
 
-| ==================================================================================================== |
+====================================================================================================
 | Variável       Area Colhida Mesa ha  Qtd Produzida Mesa t  Area Colhida Ind ha  Qtd Produzida Ind t |
 |-----------------------------------------------------------------------------------------------------|
 | Média                        141.55          1.087565e+04              2357.04         1.998935e+05 |
@@ -78,7 +78,7 @@ Abaixo estão sumarizadas as principais métricas calculadas automaticamente pel
 | Q1 (25%)                       0.00          0.000000e+00                 0.00         0.000000e+00 |
 | Q3 (75%)                     268.00          2.034750e+04              3970.50         3.352985e+05 |
 | Máximo                       658.00          5.376300e+04              7617.00         1.013730e+06 |
-| ==================================================================================================== |
+====================================================================================================
 
 DICA PARA O RELATÓRIO:
 - Variância alta: Indica que o setor é muito instável ou desigual entre regiões.
