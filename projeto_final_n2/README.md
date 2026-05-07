@@ -13,6 +13,8 @@ TECNOLOGIA EM INTELIGÊNCIA ARTIFICIAL
 SERVIÇO NACIONAL DE APRENDIZAGEM INDUSTRIAL – GOIÂNIA – GO – BRAZIL 
 
 
+
+
 1. Visão Geral do Pipeline de Engenharia de Dados
 Este relatório documenta a extração, tratamento, modelagem e consolidação das bases de dados de produção de tomate no Estado de Goiás durante o período de 2012 a 2022. Os dados brutos foram obtidos junto ao Instituto Mauro Borges (IMB).
 O grande desafio técnico contornado neste projeto consistiu no formato original de distribuição dos arquivos da instituição. As tabelas originais do IMB encontravam-se em layout "largo" (horizontal), onde os anos ocupavam colunas individuais e a primeira coluna representava a localidade (neste caso, as Regiões de Planejamento do Estado de Goiás).
