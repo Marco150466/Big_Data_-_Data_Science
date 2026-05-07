@@ -67,7 +67,7 @@ Após o processamento sistemático, a base consolidada final de região foi estr
 Abaixo estão sumarizadas as principais métricas calculadas automaticamente pelo algoritmo Python sobre a totalidade da série histórica:
 
 | ==================================================================================================== |
-| Variável       Area Colhida Mesa ha  Qtd Produzida Mesa t  Area Colhida Ind ha  Qtd Produzida Ind t |
+| Variável |      | Area Colhida Mesa (ha) | | Qtd Produzida Mesa (t) |  | Area Colhida Ind (ha) |  | Qtd Produzida Ind (t) |
 |-----------------------------------------------------------------------------------------------------|
 | Média |                       | 141.55 |          | 1.087565e+04 |              | 2357.04 |         | 1.998935e+05 |
 | Mediana |                      | 53.00 |          | 3.169000e+03 |              | 2140.00 |        | 5.440000e+04 |
