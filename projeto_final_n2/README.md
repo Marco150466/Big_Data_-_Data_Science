@@ -29,36 +29,43 @@ Arquitetura de Solução Desenvolvida em Python:
 Após o processamento sistemático, a base consolidada final de região foi estruturada. Abaixo, apresentamos uma amostra ilustrativa extraída diretamente do arquivo final unificado tomate_consolidado_limpo.csv:
 
 
-Prod. Mesa (t)	  2012	    2013	    2014	    2015	    2016	    2017	  2018	    2019	 2020	       2021	     2022
-CENTRO GOIANO	   48.930    41.471 	 39.875    28.438 	 21.695    23.137 	 12.847 	   -   	   -   	   8.003 	   9.459 
-LESTE GOIANO	   26.628    26.015 	 26.628    24.030 	 23.769    17.060 	 32.900 	   -   	   -   	  44.036 	  53.763 
-NOROESTE GOIANO	   -   	     -   	     -   	     -   	     -         -   	     -   	     -   	   -   	     -   	     -   
-NORTE GOIANO	    200       200 	    475 	    475   	  1.236     1.040 	  1.620 	   -   	   -   	  19.000 	    190 
-SUL GOIANO	      9.174     3.273 	  3.169 	  9.146 	  4.605     8.763 	  7.616 	   -   	   -   	   7.316 	  11.979 
+Prod. Mesa (t) 	2012 	2013 	2014 	2015 	2016 	2017 	2018 	2019 	2020 	2021 	2022
+CENTRO 		   48.930  41.471  39.875  28.438  21.695  23.137  12.847 	 - 		 -      8.003   9.459
+LESTE          26.628  26.015  26.628  24.030  23.769  17.060  32.900    -       -     44.036  53.763
+NOROESTE         -       -       -       -       -       -       -       -       -       -       -
+NORTE 			  200     200     475     475   1.236   1.040   1.620    -       -     19.000     190
+SUL 			9.174   3.273   3.169 	9.146   4.605 	8.763	7.616    - 		 -		7.316	11.979
 
-											
-Área Mesa (ha)	2012	    2013	    2014	    2015	    2016	    2017	    2018	    2019	    2020	    2021	    2022
-CENTRO GOIANO	   638 	     550 	     526 	     390 	     294 	     304 	     151 	       -   	     -   	   105 	     123 
-LESTE GOIANO	   296 	     313 	     323 	     288 	     288 	     248 	     353 	       -   	     -   	   502 	     658 
-NOROESTE GOIANO	   -   	     -   	     -   	     -   	     -   	     -   	     -   	     -   	     -   	     -   	     -   
-NORTE GOIANO	     5 	       5 	       5 	       5 	      12 	      13 	      18 	       -   	     -   	   200 	     200 
-SUL GOIANO	     160 	      53 	      41 	     126 	      81 	     107 	     120 	       -   	     -   	   112 	     172 
+Área Mesa (ha) 2012 	2013 	2014 	2015 	2016 	2017 	2018 	2019 	2020 	2021 	2022
+CENTRO 			638		 550	 526	 390	 294	 304	 151 	  - 	  -		 105	 123
+LESTE 			296		 313	 323	 288	 288	 248	 353 	  - 	  -		 502	 658
+NOROESTE		 - 		  - 	  - 	  -       -       -       -       -       -       -       -
+NORTE 			 5     	  5		  5       5       12      13      18 	  - 	  -      200     200
+SUL 			160		 53      41      126	  81	 107	 120 	  - 	  -		 112	 172
 
-											
-Prod. Industrial (t)	2012	    2013	   2014	     2015	     2016	     2017	     2018	     2019	     2020	     2021	     2022
-CENTRO GOIANO	      272.115 	199.254  316.350 	 181.010 	 196.275 	 323.105 	 151.100 	    -   	  54.400 	  18.200 	   2.732 
-LESTE GOIANO	      326.365   51.131 	 336.720 	 306.400 	 233.700 	 298.530 	 360.710 	    -   	 354.540 	 588.393 	 401.552 
-NOROESTE GOIANO	     23.335	     321 	  33.280 	  29.600 	    -   	   3.200 	       2 	    -   	    -   	    -   	    -   
-NORTE GOIANO	           3 	   1.331 	     -   	     -   	    -   	    -   	    -   	    -   	    -   	    -   	    -   
-SUL GOIANO	        447.21 	 490.674 	 298.840 	 333.877 	 453.378 	 577.228 	 630.032 	 1.013.730 	582.037  556.547 	 546.888 
-
-											
-Área Industrial (ha)	2012	   2013	    2014	   2015	   2016	   2017	   2018	    2019	   2020	    2021	   2022
-CENTRO GOIANO	        3.436  	 2.433 	  3.600    1.910 	 2.225 	 3.576   1.745 	   -   	     620  	 198 	   3.010 
-LESTE GOIANO	        3.282 	 5.755 	  3.540 	 3.560 	 3.315 	 5.130 	 4.060 	   -   	   3.937 	  6.825 	 4.335 
-NOROESTE GOIANO	      3.590 	 4.280 	  416 	     370 	  -   	    40 	    40 	   -   	    -   	   -   	    -   
-NORTE GOIANO	          620 	 2.140 	   -   	    -   	  -   	  -   	   -   	   -   	    -   	   -   	    -   
-SUL GOIANO	            579 	 5.928 	  3.269 	 4.004 	 5.237 	 6.889 	 6.497 	   -   	   5.967 	  5.662 	 7.617 
+Prod. Industrial (t) 2012 	2013 	2014 	2015 	2016 	2017 	2018 	2019 	2020 	2021 	2022
+CENTRO GOIANO
+272.115
+199.254
+316.350
+181.010
+196.275
+323.105
+151.100 -
+54.400
+18.200
+2.732
+LESTE GOIANO
+326.365
+51.131
+336.720
+306.400
+233.700
+298.530
+360.710 -
+354.540
+588.393
+401.552
 
 
 * Nota de Engenharia: A ocorrência de valores 0.00 de Área e Produção de Tomate de Mesa em 2019 e 2020 reflete a ausência de dados reportados nos arquivos oficiais do IMB para esses períodos específicos de pandemia.
