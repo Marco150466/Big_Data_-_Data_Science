@@ -30,6 +30,7 @@ Após o processamento sistemático, a base consolidada final de região foi estr
 
 
 Prod. Mesa (t) 	2012 	2013 	2014 	2015 	2016 	2017 	2018 	2019 	2020 	2021 	2022
+
 CENTRO 		   48.930  41.471  39.875  28.438  21.695  23.137  12.847 	 - 		 -      8.003   9.459
 LESTE          26.628  26.015  26.628  24.030  23.769  17.060  32.900    -       -     44.036  53.763
 NOROESTE         -       -       -       -       -       -       -       -       -       -       -
