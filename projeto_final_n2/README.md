@@ -1,8 +1,11 @@
 ANÁLISE DE PRODUÇÃO E ÁREA DE CULTIVO DE TOMATE (MESA VS. INDUSTRIAL) EM GOIÁS (2012-2022)
 
 Celso Augusto Valadão Faria de Almeida
+
 Hudsoney Silva
+
 Isabella Alves Montalvão
+
 Marco Antônio Soares de Brito
 
 TECNOLOGIA EM INTELIGÊNCIA ARTIFICIAL
