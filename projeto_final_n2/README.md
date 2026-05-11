@@ -87,10 +87,10 @@ distribuição da produção de tomate (mesa e industrial). Abaixo seguem os res
 interpretações técnicas de cada métrica calculada.
 
 Variável: Area Colhida Mesa ha
-| Média         | 141,55 | Mediana   | 53,00     | Moda          | 0,00 |   |
-|---------------|--------|-----------|-----------|---------------|------|---|
-| Desvio Padrão | 182,18 | Variância | 33.191,10 | Mínimo        | 0,00 |   |
-| Q1 (25%)      | 0,00   | Q3 (75%)  | 268,00    | Máximo 658,00 |      |   |
+| Média         | 141,55 | Mediana   | 53,00     | Moda   | 0,00   |   |
+|---------------|--------|-----------|-----------|--------|--------|---|
+| Desvio Padrão | 182,18 | Variância | 33.191,10 | Mínimo | 0,00   |   |
+| Q1 (25%)      | 0,00   | Q3 (75%)  | 268,00    | Máximo | 658,00 |   |
 
 2. Conexão de BI para criação de Dashboards interativos e relatórios dinâmicos.
 3. Modelagens preditivas e estimativa de safras por séries temporais no Python.
