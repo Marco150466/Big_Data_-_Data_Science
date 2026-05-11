@@ -135,6 +135,7 @@ Variável: Qtd Produzida Ind (t)
 | Desvio Padrão | 235.560,62 | Variância | 55.488.806.820,77 | Mínimo | 0,00         |   |
 | Q1 (25%)      | 0,00       | Q3 (75%)  | 335.298,50        | Máximo | 1.013.730,00 |   |
 
+
 Análise Técnica: A média (199.893,53) é superior à mediana (54.400,00), indicando uma assimetria
 positiva. O alto desvio padrão em relação à média (CV de 117,84%) revela uma grande
 heterogeneidade nos dados entre as regiões de Goiás. O valor máximo de 1.013.730,00 comparado
