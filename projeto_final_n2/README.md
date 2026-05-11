@@ -86,11 +86,60 @@ Os dados foram submetidos a uma análise descritiva univariada para compreender 
 distribuição da produção de tomate (mesa e industrial). Abaixo seguem os resultados e as
 interpretações técnicas de cada métrica calculada.
 
-Variável: Area Colhida Mesa ha
+Variável: Area Colhida Mesa (ha)
 | Média         | 141,55 | Mediana   | 53,00     | Moda   | 0,00   |   |
 |---------------|--------|-----------|-----------|--------|--------|---|
 | Desvio Padrão | 182,18 | Variância | 33.191,10 | Mínimo | 0,00   |   |
 | Q1 (25%)      | 0,00   | Q3 (75%)  | 268,00    | Máximo | 658,00 |   |
+Análise Técnica: A média (141,55) é superior à mediana (53,00), indicando uma assimetria positiva. O
+alto desvio padrão em relação à média (CV de 128,71%) revela uma grande heterogeneidade nos
+dados entre as regiões de Goiás. O valor máximo de 658,00 comparado ao Q3 (0,00) sugere a
+existência de regiões com performance muito acima da massa central (outliers).
 
-2. Conexão de BI para criação de Dashboards interativos e relatórios dinâmicos.
-3. Modelagens preditivas e estimativa de safras por séries temporais no Python.
+Variável: Qtd Produzida Mesa (t)
+| Média         | 10.875,65 | Mediana   | 3.169,00       | Moda   | 0,00      |   |
+|---------------|-----------|-----------|----------------|--------|-----------|---|
+| Desvio Padrão | 14.707,42 | Variância | 216.308.327,75 | Mínimo | 0,00      |   |
+| Q1 (25%)      | 0,00      | Q3 (75%)  | 20.347,50      | Máximo | 53.763,00 |   |
+Análise Técnica: A média (10.875,65) é superior à mediana (3.169,00), indicando uma assimetria
+positiva. O alto desvio padrão em relação à média (CV de 135,23%) revela uma grande
+heterogeneidade nos dados entre as regiões de Goiás. O valor máximo de 53.763,00 comparado ao
+Q3 (0,00) sugere a existência de regiões com performance muito acima da massa central (outliers).
+
+Variável: Produtividade Mesa (t/ha)
+| Média         | 48,85 | Mediana   | 68,79    | Moda   | 0,00   |   |
+|---------------|-------|-----------|----------|--------|--------|---|
+| Desvio Padrão | 38,91 | Variância | 1.513,69 | Mínimo | 0,00   |   |
+| Q1 (25%)      | 0,00  | Q3 (75%)  | 81,80    | Máximo | 103,00 |   |
+Análise Técnica: O alto desvio padrão em relação à média (CV de 79,64%) revela uma grande
+heterogeneidade nos dados entre as regiões de Goiás. O valor máximo de 103,00 comparado ao Q3
+(0,00) sugere a existência de regiões com performance muito acima da massa central (outliers).
+
+Variável: Area Colhida Ind (ha)
+| Média         | 2.357,04 | Mediana   | 2.140,00     | Moda   | 0,00     |   |
+|---------------|----------|-----------|--------------|--------|----------|---|
+| Desvio Padrão | 2.373,69 | Variância | 5.634.388,22 | Mínimo | 0,00     |   |
+| Q1 (25%)      | 0,00     | Q3 (75%)  | 3.970,50     | Máximo | 7.617,00 |   |
+Análise Técnica: A média (2.357,04) é superior à mediana (2.140,00), indicando uma assimetria
+positiva. O alto desvio padrão em relação à média (CV de 100,71%) revela uma grande
+heterogeneidade nos dados entre as regiões de Goiás. O valor máximo de 7.617,00 comparado ao Q3
+(0,00) sugere a existência de regiões com performance muito acima da massa central (outliers).
+
+Variável: Qtd Produzida Ind (t)
+| Média         | 199.893,53 | Mediana   | 54.400,00         | Moda   | 0,00         |   |
+|---------------|------------|-----------|-------------------|--------|--------------|---|
+| Desvio Padrão | 235.560,62 | Variância | 55.488.806.820,77 | Mínimo | 0,00         |   |
+| Q1 (25%)      | 0,00       | Q3 (75%)  | 335.298,50        | Máximo | 1.013.730,00 |   |
+Análise Técnica: A média (199.893,53) é superior à mediana (54.400,00), indicando uma assimetria
+positiva. O alto desvio padrão em relação à média (CV de 117,84%) revela uma grande
+heterogeneidade nos dados entre as regiões de Goiás. O valor máximo de 1.013.730,00 comparado
+ao Q3 (0,00) sugere a existência de regiões com performance muito acima da massa central (outliers).
+
+Variável: Produtividade Industrial (t/ha)
+| Média         | 61,41  | Mediana   | 79,20     | Moda   | 0,00   |   |
+|---------------|--------|-----------|-----------|--------|--------|---|
+| Desvio Padrão | 106,71 | Variância | 11.387,52 | Mínimo | 0,00   |   |
+| Q1 (25%)      | 0,00   | Q3 (75%)  | 88,04     | Máximo | 772,42 |   |
+Análise Técnica: O alto desvio padrão em relação à média (CV de 173,76%) revela uma grande
+heterogeneidade nos dados entre as regiões de Goiás. O valor máximo de 772,42 comparado ao Q3
+(0,00) sugere a existência de regiões com performance muito acima da massa central (outliers).
