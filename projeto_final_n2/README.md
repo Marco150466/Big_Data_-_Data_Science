@@ -82,21 +82,15 @@ Abaixo estão sumarizadas as principais métricas calculadas automaticamente pel
 
 ====================================================================================================
 
-DICA PARA O RELATÓRIO:
-- Variância alta: Indica que o setor é muito instável ou desigual entre regiões.
-- Quartis: Se o Q3 estiver muito longe do Máximo, você tem 'Outliers' (regiões gigantes).
-====================================================================================================
+Os dados foram submetidos a uma análise descritiva univariada para compreender a
+distribuição da produção de tomate (mesa e industrial). Abaixo seguem os resultados e as
+interpretações técnicas de cada métrica calculada.
 
-4. Diagnósticos e Interpretação Científica
-Assimetria Positiva e Concentração Produtiva
-Em todas as variáveis de produção e área observou-se que a Média é significativamente superior à Mediana.
-Isto caracteriza um cenário estatístico de forte assimetria positiva. Em termos geográficos, significa que a produção de tomate no Estado de Goiás não ocorre de maneira uniforme: poucas regiões polo concentram plantios e volumes de colheita massivos (como o Sul e Sudoeste Goiano), enquanto a maior parte das demais regiões opera com pequenas lavouras locais.
+Variável: Area Colhida Mesa ha
+| Média         | 141,55 | Mediana   | 53,00     | Moda          | 0,00 |   |
+|---------------|--------|-----------|-----------|---------------|------|---|
+| Desvio Padrão | 182,18 | Variância | 33.191,10 | Mínimo        | 0,00 |   |
+| Q1 (25%)      | 0,00   | Q3 (75%)  | 268,00    | Máximo 658,00 |      |   |
 
-Predomínio e Escala do Segmento Industrial
-O segmento de Tomate Industrial representa a verdadeira força econômica da cultura no estado. Enquanto a média da área colhida de tomate de mesa se situa próxima de 280 ha, a área média de cultivo industrial ultrapassa a marca de 1.450 ha, com anos de pico de plantio superando 5.500 ha em regiões líderes. Isto realça a importância das indústrias de atomatados instaladas em Goiás, que funcionam como âncoras agrícolas de demanda.
-
-5. Conclusão e Próximos Passos
-A higienização e modelagem no formato "fatos" em Python transformaram com sucesso dados brutos complexos em uma estrutura limpa e altamente profissional. Os dados agora cumprem rigorosamente os padrões relacionais, estando perfeitamente prontos para:
-1. Persistência definitiva no banco de dados relacional PostgreSQL.
 2. Conexão de BI para criação de Dashboards interativos e relatórios dinâmicos.
 3. Modelagens preditivas e estimativa de safras por séries temporais no Python.
