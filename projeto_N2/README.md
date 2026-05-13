@@ -20,7 +20,6 @@ localidade, tipo_tomate, ano, area_ha, quantidade_t e produtividade_t_ha. Marcad
 ## 2.1 Resumo dos datasets de origem
 
 | Arquivo                    | Tipo de tomate | Indicador            | Linhas | Colunas | Período   | Localidades | Células com '-' |
-| :---: | :---: | :---: | :---: || :---: | :---: | :---: | :---: |
 |----------------------------|----------------|----------------------|--------|---------|-----------|-------------|-----------------|
 | area_tomate_industrial.csv | Industrial     | Área colhida         | 5      | 13      | 2012-2022 | 5           | 15              |
 | area_tomate_de_mesa.csv    | Mesa           | Área colhida         | 5      | 13      | 2012-2022 | 5           | 18              |
@@ -47,6 +46,18 @@ A base integrada possui 110 combinações região-ano-tipo, das quais 77 (70,0%)
 | 2021 | 3                    | 4              |
 | 2022 | 5                    | 5              |
 
+## 3.2 Outliers óbvios identificados pelo critério IQR
+
+Os outliers abaixo não foram removidos automaticamente, porque podem refletir tanto anomalias de medição quanto eventos produtivosreais. Eles merecem validação adicional junto à fonte original antes de qualquer uso decisório de alto impacto.
+
+| variavel      | tipo_tomate | localidade      | ano  | valor |
+|---------------|-------------|-----------------|------|-------|
+| Produtividade | Industrial  | NORTE GOIANO    | 2012 | 50,00 |
+| Produtividade | Industrial  | NORTE GOIANO    | 2013 | 62,20 |
+| Produtividade | Industrial  | LESTE GOIANO    | 2017 | 58,19 |
+| Produtividade | Industrial  | NOROESTE GOIANO | 2018 | 0,05  |
+| Produtividade | Mesa        | NORTE GOIANO    | 2012 | 40,00 |
+| Produtividade | Mesa        | NORTE GOIANO    | 2013 | 40,00 |
 
 
 
