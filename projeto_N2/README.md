@@ -2,11 +2,11 @@
 
 Este relatório consolida quatro bases sobre a cultura do tomate em Goiás, integrando área colhida e quantidade produzida para ossegmentos industrial e de mesa. A proposta foi organizar um fluxo único de análise, desde a documentação dos dados até a modelagempreditiva, de forma interpretável e pronta para apresentação.
 
-| PERÍODO COBERTO        | 2012 a 2022             |   |
-|------------------------|-------------------------|---|
-| LOCALIDADES            | 5 macrorregiões goianas |   |
-| OBSERVAÇÕES INTEGRADAS | 110                     |   |
-| DOCUMENTO GERADO EM    | 13/05/2026 19:41        |   |
+| PERÍODO COBERTO        | 2012 a 2022             |
+|------------------------|-------------------------|
+| LOCALIDADES            | 5 macrorregiões goianas |
+| OBSERVAÇÕES INTEGRADAS | 110                     |
+| DOCUMENTO GERADO EM    | 13/05/2026 19:41        |
 
 
 ## 📋1. Contexto e proposta analítica
@@ -19,12 +19,13 @@ localidade, tipo_tomate, ano, area_ha, quantidade_t e produtividade_t_ha. Marcad
 ## 2. Documentação das bases
 ## 2.1 Resumo dos datasets de origem
 
-| Arquivo                    | Tipo de tomate | Indicador            | Linhas | Colunas | Período   | Localidades | Células com '-' |   |
-|----------------------------|----------------|----------------------|--------|---------|-----------|-------------|-----------------|---|
-| area_tomate_industrial.csv | Industrial     | Área colhida         | 5      | 13      | 2012-2022 | 5           | 15              |   |
-| area_tomate_de_mesa.csv    | Mesa           | Área colhida         | 5      | 13      | 2012-2022 | 5           | 18              |   |
-| tomate_industrial.csv      | Industrial     | Quantidade produzida | 5      | 13      | 2012-2022 | 5           | 14              |   |
-| tomate_de_mesa.csv         | Mesa           | Quantidade produzida | 5      | 13      | 2012-2022 | 5           | 18              |   |
+| Arquivo                    | Tipo de tomate | Indicador            | Linhas | Colunas | Período   | Localidades | Células com '-' |
+| :---: | :---: | :---: | :---: || :---: | :---: | :---: | :---: |
+|----------------------------|----------------|----------------------|--------|---------|-----------|-------------|-----------------|
+| area_tomate_industrial.csv | Industrial     | Área colhida         | 5      | 13      | 2012-2022 | 5           | 15              |
+| area_tomate_de_mesa.csv    | Mesa           | Área colhida         | 5      | 13      | 2012-2022 | 5           | 18              |
+| tomate_industrial.csv      | Industrial     | Quantidade produzida | 5      | 13      | 2012-2022 | 5           | 14              |
+| tomate_de_mesa.csv         | Mesa           | Quantidade produzida | 5      | 13      | 2012-2022 | 5           | 18              |
 
 ## 3. Qualidade e cobertura dos dados
 
