@@ -1,7 +1,6 @@
 # 🍅 Projeto Tomate Goiás: Análise Integrada e Modelagem Preditiva
 
-Este repositório contém o estudo completo sobre a cultura do tomate no Estado de Goiás (2012-2022), integrando dados de produção industrial e de mesa. O projeto abrange desde a engenharia de dados e análise estatística até a criação de modelos de Machine Learning para previsão de safra.
-
+Este relatório consolida quatro bases sobre a cultura do tomate em Goiás, integrando área colhida e quantidade produzida para ossegmentos industrial e de mesa. A proposta foi organizar um fluxo único de análise, desde a documentação dos dados até a modelagempreditiva, de forma interpretável e pronta para apresentação.
 ---
 
 ## 📋 Visão Geral
