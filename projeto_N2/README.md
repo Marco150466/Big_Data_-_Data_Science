@@ -16,6 +16,17 @@ Os arquivos descrevem duas cadeias produtivas com dinâmicas diferentes. O tomat
 Após a leitura dos arquivos originais, os dados foram convertidos do formato amplo para uma base analítica única em formato longo, comas colunas
 localidade, tipo_tomate, ano, area_ha, quantidade_t e produtividade_t_ha. Marcadores - foram tratados como ausentes e os valorescom separador de milhar em ponto foram padronizados antes das análises.
 
+## 2. Documentação das bases
+## 2.1 Resumo dos datasets de origem
+
+| Arquivo                    | Tipo de tomate | Indicador            | Linhas | Colunas | Período   | Localidades | Células com '-' |   |
+|----------------------------|----------------|----------------------|--------|---------|-----------|-------------|-----------------|---|
+| area_tomate_industrial.csv | Industrial     | Área colhida         | 5      | 13      | 2012-2022 | 5           | 15              |   |
+| area_tomate_de_mesa.csv    | Mesa           | Área colhida         | 5      | 13      | 2012-2022 | 5           | 18              |   |
+| tomate_industrial.csv      | Industrial     | Quantidade produzida | 5      | 13      | 2012-2022 | 5           | 14              |   |
+| tomate_de_mesa.csv         | Mesa           | Quantidade produzida | 5      | 13      | 2012-2022 | 5           | 18              |   |
+
+
 ## 📋 Visão Geral
 O projeto consolida bases de dados do **Instituto Mauro Borges (IMB)**, transformando arquivos de layout horizontal ("wide") em uma base analítica verticalizada ("long").
 
