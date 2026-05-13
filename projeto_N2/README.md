@@ -26,6 +26,28 @@ localidade, tipo_tomate, ano, area_ha, quantidade_t e produtividade_t_ha. Marcad
 | tomate_industrial.csv      | Industrial     | Quantidade produzida | 5      | 13      | 2012-2022 | 5           | 14              |   |
 | tomate_de_mesa.csv         | Mesa           | Quantidade produzida | 5      | 13      | 2012-2022 | 5           | 18              |   |
 
+## 3. Qualidade e cobertura dos dados
+
+A base integrada possui 110 combinações região-ano-tipo, das quais 77 (70,0%) têm área e produção simultaneamente disponíveis. Foramidentificados 33 valores ausentes em área, 32 em produção e 36 em produtividade. As ausências se concentram no hiato de 2019 paraambos os segmentos e em 2020 para tomate de mesa.
+
+## 3.1 Cobertura completa por ano e segmento
+
+| Ano  | Industrial completos | Mesa completos |   
+|------|----------------------|----------------|
+| 2012 | 5                    | 4              |
+| 2013 | 5                    | 4              |
+| 2014 | 4                    | 4              |
+| 2015 | 4                    | 4              |
+| 2016 | 3                    | 4              |
+| 2017 | 4                    | 4              |
+| 2018 | 4                    | 4              |
+| 2019 | 0                    | 0              |
+| 2020 | 3                    | 0              |
+| 2021 | 3                    | 4              |
+| 2022 | 5                    | 5              |
+
+
+
 
 ## 📋 Visão Geral
 O projeto consolida bases de dados do **Instituto Mauro Borges (IMB)**, transformando arquivos de layout horizontal ("wide") em uma base analítica verticalizada ("long").
