@@ -1,7 +1,14 @@
 # 🍅 Projeto Tomate Goiás: Análise Integrada e Modelagem Preditiva
 
 Este relatório consolida quatro bases sobre a cultura do tomate em Goiás, integrando área colhida e quantidade produzida para ossegmentos industrial e de mesa. A proposta foi organizar um fluxo único de análise, desde a documentação dos dados até a modelagempreditiva, de forma interpretável e pronta para apresentação.
----
+
+| PERÍODO COBERTO        | 2012 a 2022             |   |
+|------------------------|-------------------------|---|
+| LOCALIDADES            | 5 macrorregiões goianas |   |
+| OBSERVAÇÕES INTEGRADAS | 110                     |   |
+| DOCUMENTO GERADO EM    | 13/05/2026 19:41        |   |
+
+
 
 ## 📋 Visão Geral
 O projeto consolida bases de dados do **Instituto Mauro Borges (IMB)**, transformando arquivos de layout horizontal ("wide") em uma base analítica verticalizada ("long").
