@@ -113,7 +113,7 @@ O valor máximo de área colhida foi 7.617 ha no industrial e 658 ha no de mesa.
 
 Quantidade produzida representa o volume anual de tomate colhido. A tabela resume os principais indicadores descritivos separadosentre tomate industrial e tomate de mesa.
 
-| Tipo de tomate | n válido | Média      | Mediana    | Moda                        | Desvio padrão | Variância         | Mínimo | Q1        | Q2         | Q3         | Máximo |   |
+| Tipo de tomate | n válido | Média      | Mediana    | Moda                        | Desvio padrão | Variância         | Mínimo | Q1        | Q2         | Q3         | Máximo |
 |----------------|----------|------------|------------|-----------------------------|---------------|-------------------|--------|-----------|------------|------------|--------|
 | Industrial     | 41       | 281.115,56 | 298.840,00 | 0 (freq.2)                  | 235.306,57    | 55.369.181.108,75 | 0      | 32.100,00 | 298.840,00 | 447.231,00 | 1.013  |
 | Mesa           | 37       | 16.674,89  | 11.979,00  | 200,475,19.000... (freq. 2) | 15.146,58     | 229.418.924,21    | 0      | 3.273,00  | 11.979,00  | 26.015,00  | 53.76  |
