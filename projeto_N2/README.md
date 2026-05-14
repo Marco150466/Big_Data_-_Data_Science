@@ -12,6 +12,8 @@ Marco Antônio Soares de Brito
 
 Este relatório consolida quatro bases sobre a cultura do tomate em Goiás, integrando área colhida e quantidade produzida para os segmentos industrial e de mesa. A proposta foi organizar um fluxo único de análise, desde a documentação dos dados até a modelagem preditiva, de forma interpretável e pronta para apresentação.
 
+A cadeia produtiva do tomate em Goiás é um tema riquíssimo. O estado é o maior produtor de tomate do país, com forte destaque para o polo agroindustrial na região do município de Morrinhos e arredores. Analisar a diferença de comportamento entre o tomate de mesa (destinado ao consumo fresco, muito sensível a preços e pragas) e o tomate industrial (destinado a molhos, extratos e polpas, altamente tecnificado e baseado em contratos) é perfeito para um projeto de Ciência de Dados.
+
 | PERÍODO COBERTO        | 2012 a 2022             |
 |------------------------|-------------------------|
 | LOCALIDADES            | 5 macrorregiões goianas |
