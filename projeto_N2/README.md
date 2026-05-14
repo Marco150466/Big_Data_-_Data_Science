@@ -12,6 +12,8 @@ Marco Antônio Soares de Brito
 
 Este relatório consolida quatro bases sobre a cultura do tomate em Goiás, integrando área colhida e quantidade produzida para os segmentos industrial e de mesa. A proposta foi organizar um fluxo único de análise, desde a documentação dos dados até a modelagem preditiva, de forma interpretável e pronta para apresentação.
 
+As bases extraídas do sistema Banco de Dados Estatísticos do Estado de Goiás (BDE-Goiás)/Instituro Mauro Borges (IMB) para o período de 2012 a 2022 estruturam-se sobre as seguintes variáveis (colunas): localidade, tipo tomate, ano, area (ha), quantidade (t) e produtividade (t/ha).
+
 A cadeia produtiva do tomate em Goiás é um tema riquíssimo. O estado é o maior produtor de tomate do país, com forte destaque para o polo agroindustrial na região do município de Morrinhos e arredores. Analisar a diferença de comportamento entre o tomate de mesa (destinado ao consumo fresco, muito sensível a preços e pragas) e o tomate industrial (destinado a molhos, extratos e polpas, altamente tecnificado e baseado em contratos) é perfeito para um projeto de Ciência de Dados.
 
 | PERÍODO COBERTO        | 2012 a 2022             |
@@ -25,8 +27,7 @@ A cadeia produtiva do tomate em Goiás é um tema riquíssimo. O estado é o mai
 
 Os arquivos descrevem duas cadeias produtivas com dinâmicas diferentes. O tomate industrial tende a operar em escalas de área e volume maiores, apoiado em fluxo logístico e processamento agroindustrial. Já o tomate de mesa costuma responder mais diretamente à oferta in natura, à especialização local e à volatilidade de mercado. A integração entre essas bases permite avaliar tamanho, estabilidade e eficiência relativa de cada segmento.
 
-Após a leitura dos arquivos originais, os dados foram convertidos do formato amplo para uma base analítica única em formato longo, com as colunas
-localidade, tipo tomate, ano, area (ha), quantidade (t) e produtividade (t/ha). Marcadores - foram tratados como ausentes e os valores com separador de milhar em ponto foram padronizados antes das análises.
+Após a leitura dos arquivos originais, os dados foram convertidos do formato amplo para uma base analítica única em formato longo. Marcadores - foram tratados como ausentes e os valores com separador de milhar em ponto foram padronizados antes das análises.
 
 ## 2. Documentação das bases
 ## 2.1 Resumo dos datasets de origem
