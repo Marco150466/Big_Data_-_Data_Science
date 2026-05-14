@@ -59,6 +59,15 @@ Os outliers abaixo não foram removidos automaticamente, porque podem refletir t
 | Produtividade | Mesa        | NORTE GOIANO    | 2012 | 40,00 |
 | Produtividade | Mesa        | NORTE GOIANO    | 2013 | 40,00 |
 
+## 4. Estatística descritiva e interpretação
+## Área colhida
+
+Área colhida mede a extensão da área efetivamente colhida em cada macrorregião e ano. A tabela resume os principais indicadoresdescritivos separados entre tomate industrial e tomate de mesa.
+
+| Tipo de tomate | n válido | Média    | Mediana  | Moda           | Desvio padrão | Variância    | Mínimo | Q1     | Q2       | Q3       | Máximo |
+|----------------|----------|----------|----------|----------------|---------------|--------------|--------|--------|----------|----------|--------|
+| Industrial     | 40       | 3.064,30 | 3.375,50 | 0,40 (freq. 2) | 2.389,23      | 5.708.442,88 | 0      | 404,50 | 3.375,50 | 5.156,75 | 7.617  |
+| Mesa           | 37       | 210,41   | 160,00   | 5 (freq.4)     | 186,80        | 34.895,69    | 0      | 53,00  | 160,00   | 304,00   | 658    |
 
 
 ## 📋 Visão Geral
