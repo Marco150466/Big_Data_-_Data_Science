@@ -1,4 +1,4 @@
-## Participantes
+<img width="2488" height="1767" alt="image" src="https://github.com/user-attachments/assets/99e99e56-a36a-4965-99cb-a30c286210e2" />## Participantes:
 
 Celso Augusto Valadão Faria de Almeida
 
@@ -217,5 +217,8 @@ O terceiro quartil (Q3) atingiu 90,66 t/ha para o tomate industrial e 85,74 t/ha
 
 O valor máximo de produtividade foi 99,44 t/ha no industrial e 103,00 t/ha no de mesa. Os máximos destacam os picos dedesempenho observados e evidenciam o potencial de expansão produtiva quando área, logística e condições agronômicas se alinhamfavoravelmente.
 
-<p align="center">
-  <a href="Coleta e Estatística Descritiva">
+## 5. Dashboard de visualização
+
+<img width="2488" height="1767" alt="image" src="https://github.com/user-attachments/assets/e9dcdab4-fb4e-4938-8cd1-f16ed071eb08" />
+
+
