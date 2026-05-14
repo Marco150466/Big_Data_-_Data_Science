@@ -1,4 +1,4 @@
-<img width="2488" height="1767" alt="image" src="https://github.com/user-attachments/assets/99e99e56-a36a-4965-99cb-a30c286210e2" />## Participantes:
+## Participantes:
 
 Celso Augusto Valadão Faria de Almeida
 
