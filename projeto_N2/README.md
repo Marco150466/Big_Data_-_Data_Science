@@ -69,63 +69,51 @@ Os outliers abaixo não foram removidos automaticamente, porque podem refletir t
 | Industrial     | 40       | 3.064,30 | 3.375,50 | 0,40 (freq. 2) | 2.389,23      | 5.708.442,88 | 0      | 404,50 | 3.375,50 | 5.156,75 | 7.617  |
 | Mesa           | 37       | 210,41   | 160,00   | 5 (freq.4)     | 186,80        | 34.895,69    | 0      | 53,00  | 160,00   | 304,00   | 658    |
 
+## Média.
 
-## 📋 Visão Geral
-O projeto consolida bases de dados do **Instituto Mauro Borges (IMB)**, transformando arquivos de layout horizontal ("wide") em uma base analítica verticalizada ("long").
+A média de área colhida foi de 3.064,30 ha no tomate industrial e 210,41 ha no tomate de mesa. Esse resultado resume o patamartípico de operação do período e mostra como o segmento industrial trabalha em escala mais alta, enquanto o tomate de mesa opera comestrutura mais enxuta e dispersa entre as macrorregiões.
 
-- **Período:** 2012 a 2022
-- **Escopo:** Macrorregiões do Estado de Goiás
-- **Tecnologias:** Python (Pandas, Scikit-Learn), Power BI, Markdown.
+## Mediana.
 
----
+A mediana ficou em 3.375,50 ha para o industrial e 160,00 ha para o de mesa. Como a mediana é menos sensível a extremos, elarevela o ponto central mais representativo da série e ajuda a separar o padrão recorrente de oscilações ocasionais do cultivo.
 
-## 🛠️ Engenharia de Dados
-Os dados brutos passaram por um rigoroso processo de ETL:
-1. **Normalização:** Tratamento de encodings e padronização de separadores decimais.
-2. **Pivotagem (Melt):** Conversão de colunas de anos em registros temporais.
-3. **Consolidação:** Merge das tabelas de Área e Produção (Mesa e Industrial) em uma única tabela de Fatos.
+## Moda.
 
----
+A moda observada para área colhida foi 0, 40 (freq. 2) no segmento industrial e 5 (freq. 4) no de mesa. Quando não há moda única,isso sinaliza uma distribuição mais espalhada; quando há repetição, indica um nível de operação que voltou a aparecer ao longo dos anose regiões.
 
-## 📈 Análise Estatística (Resumo)
+## Desvio padrão.
 
-| Variável Analisada | Média | Mediana | Desvio Padrão | Máximo |
-| :--- | :---: | :---: | :---: | :---: |
-| **Qtd. Produzida Mesa (t)** | 10.875,65 | 3.169,00 | 14.707,42 | 53.763,00 |
-| **Area Colhida Mesa (ha)** | 141,55 | 53,00 | 182,18 | 658,00 |
-| **Qtd. Produzida Industrial (t)** | 199.893,53 | 54.400,00 | 235.560,62 | 1.013.730,00 |
-| **Area Colhida Industrial (ha)** | 2.357,04 | 2.140,00 | 2.373,69 | 7.617,00 |
+O desvio padrão de área colhida alcançou 2.389,23 ha no industrial e 186,80 ha no de mesa. Na prática, isso medevolatilidade: quanto maior o valor, maior a oscilação entre safras e regiões, algo importante para avaliar previsibilidade operacional esensibilidade a choques produtivos.
 
-> **Interpretação:** A produção industrial domina a escala de cultivo em Goiás. Observa-se uma **assimetria positiva** (média > mediana), indicando que a produção é altamente concentrada em polos agroindustriais específicos.
+## Variância.
 
----
+A variância foi de 5.708.442,88 ha no tomate industrial e 34.895,69 ha no tomate de mesa. Como ela amplia matematicamenteas diferenças em torno da média, confirma o quanto a série industrial é heterogênea e quantifica a amplitude estrutural entre contextosagrícolas distintos.
 
-## 🤖 Modelagem Preditiva (Regressão)
-Foram testados modelos de Machine Learning para prever a produção com base na área e localidade:
+## Mínimo.
 
-1. **Random Forest Regressor**
-2. **Gradient Boosting Regressor** (Melhor performance)
+O menor valor de área colhida foi 0 ha no industrial e 0 ha no de mesa. Os mínimos ajudam a localizar momentos ou áreas debaixa atividade e, no contexto agrícola, podem refletir recuo de cultivo, ausência de colheita ou registros muito pontuais.
 
-### Métricas de Avaliação:
-- **MAE (Mean Absolute Error):** Erro médio absoluto das previsões.
-- **RMSE (Root Mean Square Error):** Sensibilidade a grandes erros (outliers).
-- **R² Score:** Capacidade explicativa do modelo.
+## Q1.
 
-*Os modelos de árvore superaram as abordagens lineares devido à natureza não linear da expansão agrícola e variações regionais.*
+O primeiro quartil (Q1) ficou em 404,50 ha para o industrial e 53,00 ha para o de mesa. Isso significa que 25% das observações ficaramabaixo desse patamar, útil para entender a base inferior de desempenho e a diferença entre áreas de menor escala em cada cadeia.
 
----
+## Q2.
 
-## 📊 Dashboard (Power BI)
-O dashboard interativo permite filtrar a evolução temporal e regional da produtividade (t/ha), destacando os anos de hiato de dados (2019-2020) e a recuperação do setor no pós-pandemia.
+O segundo quartil (Q2), equivalente à mediana, foi 3.375,50 ha no industrial e 160,00 ha no de mesa. Esse ponto divide a distribuiçãoao meio e reforça o nível central em que a maior parte das safras tende a se posicionar.
 
----
+## Q3.
 
-## 📂 Estrutura de Arquivos
-- `tomate_consolidado_limpo.csv`: Base de dados final tratada.
-- `main.py`: Script de ETL e análise estatística.
-- `modelos_regressao.py`: Treinamento e avaliação de ML.
-- `relatorio_tecnico.pdf`: Documentação detalhada dos resultados.
+O terceiro quartil (Q3) atingiu 5.156,75 ha para o tomate industrial e 304,00 ha para o tomate de mesa. Ele marca a fronteira superiorde 75% das observações e ajuda a reconhecer quando a cadeia começa a entrar em um nível alto de escala ou eficiência.
 
----
-**Desenvolvido por:** Grupo de Data Science - FATESG
-**Data:** Maio/2026
+## Máximo.
+
+O valor máximo de área colhida foi 7.617 ha no industrial e 658 ha no de mesa. Os máximos destacam os picos de desempenhoobservados e evidenciam o potencial de expansão produtiva quando área, logística e condições agronômicas se alinham favoravelmente.
+
+## Quantidade produzida
+
+Quantidade produzida representa o volume anual de tomate colhido. A tabela resume os principais indicadores descritivos separadosentre tomate industrial e tomate de mesa.
+
+| Tipo de tomate | n válido | Média      | Mediana    | Moda                        | Desvio padrão | Variância         | Mínimo | Q1        | Q2         | Q3         | Máximo |   |
+|----------------|----------|------------|------------|-----------------------------|---------------|-------------------|--------|-----------|------------|------------|--------|---|
+| Industrial     | 41       | 281.115,56 | 298.840,00 | 0 (freq.2)                  | 235.306,57    | 55.369.181.108,75 | 0      | 32.100,00 | 298.840,00 | 447.231,00 | 1.013  |   |
+| Mesa           | 37       | 16.674,89  | 11.979,00  | 200,475,19.000... (freq. 2) | 15.146,58     | 229.418.924,21    | 0      | 3.273,00  | 11.979,00  | 26.015,00  | 53.76  |   |
