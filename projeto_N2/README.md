@@ -114,6 +114,55 @@ O valor máximo de área colhida foi 7.617 ha no industrial e 658 ha no de mesa.
 Quantidade produzida representa o volume anual de tomate colhido. A tabela resume os principais indicadores descritivos separadosentre tomate industrial e tomate de mesa.
 
 | Tipo de tomate | n válido | Média      | Mediana    | Moda                        | Desvio padrão | Variância         | Mínimo | Q1        | Q2         | Q3         | Máximo |   |
-|----------------|----------|------------|------------|-----------------------------|---------------|-------------------|--------|-----------|------------|------------|--------|---|
-| Industrial     | 41       | 281.115,56 | 298.840,00 | 0 (freq.2)                  | 235.306,57    | 55.369.181.108,75 | 0      | 32.100,00 | 298.840,00 | 447.231,00 | 1.013  |   |
-| Mesa           | 37       | 16.674,89  | 11.979,00  | 200,475,19.000... (freq. 2) | 15.146,58     | 229.418.924,21    | 0      | 3.273,00  | 11.979,00  | 26.015,00  | 53.76  |   |
+|----------------|----------|------------|------------|-----------------------------|---------------|-------------------|--------|-----------|------------|------------|--------|
+| Industrial     | 41       | 281.115,56 | 298.840,00 | 0 (freq.2)                  | 235.306,57    | 55.369.181.108,75 | 0      | 32.100,00 | 298.840,00 | 447.231,00 | 1.013  |
+| Mesa           | 37       | 16.674,89  | 11.979,00  | 200,475,19.000... (freq. 2) | 15.146,58     | 229.418.924,21    | 0      | 3.273,00  | 11.979,00  | 26.015,00  | 53.76  |
+
+## Média. 
+
+A média de quantidade produzida foi de 281.115,56 t no tomate industrial e 16.674,89 t no tomate de mesa. Esse resultado resumeo patamar típico de operação do período e mostra como o segmento industrial trabalha em escala mais alta, enquanto o tomate de mesaopera com estrutura mais enxuta e dispersa entre as macrorregiões.
+
+## Mediana.
+
+A mediana ficou em 298.840,00 t para o industrial e 11.979,00 t para o de mesa. Como a mediana é menos sensível a extremos,ela revela o ponto central mais representativo da série e ajuda a separar o padrão recorrente de oscilações ocasionais do cultivo.
+
+## Moda.
+
+A moda observada para quantidade produzida foi 0 (freq. 2) no segmento industrial e 200, 475, 19.000... (freq. 2) no de mesa.Quando não há moda única, isso sinaliza uma distribuição mais espalhada; quando há repetição, indica um nível de operação que voltou aaparecer ao longo dos anos e regiões.
+
+## Desvio padrão.
+
+O desvio padrão de quantidade produzida alcançou 235.306,57 t no industrial e 15.146,58 t no de mesa. Na prática, issomede volatilidade: quanto maior o valor, maior a oscilação entre safras e regiões, algo importante para avaliar previsibilidade operacional esensibilidade a choques produtivos.
+
+## Variância.
+
+A variância foi de 55.369.181.108,75 t no tomate industrial e 229.418.924,21 t no tomate de mesa. Como ela ampliamatematicamente as diferenças em torno da média, confirma o quanto a série industrial é heterogênea e quantifica a amplitude estruturalentre contextos agrícolas distintos.
+
+## Mínimo.
+
+O menor valor de quantidade produzida foi 0 t no industrial e 0 t no de mesa. Os mínimos ajudam a localizar momentos ou áreasde baixa atividade e, no contexto agrícola, podem refletir recuo de cultivo, ausência de colheita ou registros muito pontuais.
+
+## Q1.
+
+O primeiro quartil (Q1) ficou em 32.100,00 t para o industrial e 3.273,00 t para o de mesa. Isso significa que 25% das observaçõesficaram abaixo desse patamar, útil para entender a base inferior de desempenho e a diferença entre áreas de menor escala em cadacadeia.
+
+## Q2.
+
+O segundo quartil (Q2), equivalente à mediana, foi 298.840,00 t no industrial e 11.979,00 t no de mesa. Esse ponto divide a distribuiçãoao meio e reforça o nível central em que a maior parte das safras tende a se posicionar.
+
+## Q3.
+
+O terceiro quartil (Q3) atingiu 447.231,00 t para o tomate industrial e 26.015,00 t para o tomate de mesa. Ele marca a fronteira superiorde 75% das observações e ajuda a reconhecer quando a cadeia começa a entrar em um nível alto de escala ou eficiência.
+
+## Máximo.
+
+O valor máximo de quantidade produzida foi 1.013.730 t no industrial e 53.763 t no de mesa. Os máximos destacam os picos dedesempenho observados e evidenciam o potencial de expansão produtiva quando área, logística e condições agronômicas se alinhamfavoravelmente.
+
+## Produtividade
+
+Produtividade relaciona produção e área, sintetizando eficiência agrícola. A tabela resume os principais indicadores descritivos separadosentre tomate industrial e tomate de mesa.
+
+| Tipo de tomate | n válido | Média | Mediana | Moda           | Desvio padrão | Variância | Mínimo | Q1    | Q2    | Q3    | Máximo |
+|----------------|----------|-------|---------|----------------|---------------|-----------|--------|-------|-------|-------|--------|
+| Industrial     | 38       | 81,51 | 86,39   | 80,00 (freq.3) | 17,61         | 310,01    | 0,05   | 79,40 | 86,39 | 90,66 | 99,44  |
+| Mesa           | 36       | 77,25 | 77,10   | 95,00 (freq.4) | 14,34         | 205,70    | 40,00  | 71,85 | 77,10 | 85,74 | 103,00 |
