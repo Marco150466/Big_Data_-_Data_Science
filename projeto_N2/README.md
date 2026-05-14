@@ -166,3 +166,46 @@ Produtividade relaciona produção e área, sintetizando eficiência agrícola. 
 |----------------|----------|-------|---------|----------------|---------------|-----------|--------|-------|-------|-------|--------|
 | Industrial     | 38       | 81,51 | 86,39   | 80,00 (freq.3) | 17,61         | 310,01    | 0,05   | 79,40 | 86,39 | 90,66 | 99,44  |
 | Mesa           | 36       | 77,25 | 77,10   | 95,00 (freq.4) | 14,34         | 205,70    | 40,00  | 71,85 | 77,10 | 85,74 | 103,00 |
+
+## Média.
+
+A média de produtividade foi de 81,51 t/ha no tomate industrial e 77,25 t/ha no tomate de mesa. Esse resultado resume o patamartípico de operação do período e mostra como o segmento industrial trabalha em escala mais alta, enquanto o tomate de mesa opera comestrutura mais enxuta e dispersa entre as macrorregiões.
+
+## Mediana.
+
+A mediana ficou em 86,39 t/ha para o industrial e 77,10 t/ha para o de mesa. Como a mediana é menos sensível a extremos, elarevela o ponto central mais representativo da série e ajuda a separar o padrão recorrente de oscilações ocasionais do cultivo.
+
+## Moda.
+
+A moda observada para produtividade foi 80,00 (freq. 3) no segmento industrial e 95,00 (freq. 4) no de mesa. Quando não há modaúnica, isso sinaliza uma distribuição mais espalhada; quando há repetição, indica um nível de operação que voltou a aparecer ao longo dosanos e regiões.
+
+## Desvio padrão.
+
+O desvio padrão de produtividade alcançou 17,61 t/ha no industrial e 14,34 t/ha no de mesa. Na prática, isso medevolatilidade: quanto maior o valor, maior a oscilação entre safras e regiões, algo importante para avaliar previsibilidade operacional esensibilidade a choques produtivos.
+
+## Variância.
+
+A variância foi de 310,01 t/ha no tomate industrial e 205,70 t/ha no tomate de mesa. Como ela amplia matematicamente asdiferenças em torno da média, confirma o quanto a série industrial é heterogênea e quantifica a amplitude estrutural entre contextosagrícolas distintos.
+
+## Mínimo.
+
+O menor valor de produtividade foi 0,05 t/ha no industrial e 40,00 t/ha no de mesa. Os mínimos ajudam a localizar momentos ouáreas de baixa atividade e, no contexto agrícola, podem refletir recuo de cultivo, ausência de colheita ou registros muito pontuais.
+
+## Q1.
+
+O primeiro quartil (Q1) ficou em 79,40 t/ha para o industrial e 71,85 t/ha para o de mesa. Isso significa que 25% das observaçõesficaram abaixo desse patamar, útil para entender a base inferior de desempenho e a diferença entre áreas de menor escala em cadacadeia.
+
+## Q2.
+
+O segundo quartil (Q2), equivalente à mediana, foi 86,39 t/ha no industrial e 77,10 t/ha no de mesa. Esse ponto divide a distribuiçãoao meio e reforça o nível central em que a maior parte das safras tende a se posicionar.
+
+## Q3.
+
+O terceiro quartil (Q3) atingiu 90,66 t/ha para o tomate industrial e 85,74 t/ha para o tomate de mesa. Ele marca a fronteira superiorde 75% das observações e ajuda a reconhecer quando a cadeia começa a entrar em um nível alto de escala ou eficiência.
+
+## Máximo.
+
+O valor máximo de produtividade foi 99,44 t/ha no industrial e 103,00 t/ha no de mesa. Os máximos destacam os picos dedesempenho observados e evidenciam o potencial de expansão produtiva quando área, logística e condições agronômicas se alinhamfavoravelmente.
+
+<p align="center">
+  <a href="Coleta e Estatística Descritiva">
