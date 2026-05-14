@@ -21,7 +21,7 @@ Este relatório consolida quatro bases sobre a cultura do tomate em Goiás, inte
 
 ## 📋1. Contexto e proposta analítica
 
-Os arquivos descrevem duas cadeias produtivas com dinâmicas diferentes. O tomate industrial tende a operar em escalas de área e volumemaiores, apoiado em fluxo logístico e processamento agroindustrial. Já o tomate de mesa costuma responder mais diretamente à oferta innatura, à especialização local e à volatilidade de mercado. A integração entre essas bases permite avaliar tamanho, estabilidade e eficiênciarelativa de cada segmento.
+Os arquivos descrevem duas cadeias produtivas com dinâmicas diferentes. O tomate industrial tende a operar em escalas de área e volume maiores, apoiado em fluxo logístico e processamento agroindustrial. Já o tomate de mesa costuma responder mais diretamente à oferta innatura, à especialização local e à volatilidade de mercado. A integração entre essas bases permite avaliar tamanho, estabilidade e eficiênciarelativa de cada segmento.
 
 Após a leitura dos arquivos originais, os dados foram convertidos do formato amplo para uma base analítica única em formato longo, comas colunas
 localidade, tipo_tomate, ano, area_ha, quantidade_t e produtividade_t_ha. Marcadores - foram tratados como ausentes e os valorescom separador de milhar em ponto foram padronizados antes das análises.
